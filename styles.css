@@ -1,0 +1,37 @@
+
+button {
+   border-left:1px solid rgb(216, 215, 215);
+   border-right:0px solid  rgb(216, 215, 215);
+   border-top:1px solid  rgb(216, 215, 215);
+   border-bottom:1px solid rgb(216, 215, 215);
+   color: rgb(49, 100, 194);
+}
+
+#last{
+    border-right:1px solid  rgb(216, 215, 215);
+}
+
+.pagination-buttons{
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+    background-color: white;
+}
+
+.pagination-buttons:hover {
+    background-color: rgb(49, 100, 194); 
+    color:white;
+    font-weight:400;
+}
+
+#title,#description{
+    text-align: center;
+}
+
+#dropdown{
+    margin-top:2em;
+    margin-bottom: 3em;
+}
+
+label{
+    margin-right:1em;
+}
