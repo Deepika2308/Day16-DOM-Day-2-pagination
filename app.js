@@ -144,6 +144,7 @@ document.getElementById("next").addEventListener("click",() => {
 var select= document.getElementById("recPerPage");
 
 select.addEventListener("change",()=>{
+    setCount.page=1;
     var drpValue = select.options[select.selectedIndex].value;
     console.log(drpValue);
     setCount.rows=drpValue;
